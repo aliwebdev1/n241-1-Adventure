@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500;1,700;1,800&display=swap");
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.container {
+    width: 1700px;
+    margin: auto;
+}
+
+header {
+    background-image: url("../images/dawn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000007a;
+    background-blend-mode: multiply;
+    background-position: bottom;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {}
+
+.logo h2 {
+    line-height: 1.2;
+}
+
+.logo h2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.logo h2 a span {
+    font-weight: 300;
+}
+
+nav {}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:last-child {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.banner {
+    text-align: center;
+    padding: 185px 0px;
+    color: white;
+}
+
+.banner h3 {
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.banner span {
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.banner button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
